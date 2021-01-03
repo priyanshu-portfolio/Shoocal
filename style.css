@@ -1,9 +1,19 @@
-body {
+body{
 	background-image: url(images/background-01.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	
 }
+.row::after {
+	content: "";
+	clear: both;
+	display: block;
+ }
+ 
+ [class*="col-"] {
+	float: left;
+	padding: 15px;
+ }
+ 
 .qr {
 	margin-top: 155px;
 	margin-left: 5px;
@@ -35,3 +45,50 @@ body {
 	font-size: 2em;
 	text-align: center;
 }
+@media only screen and (max-width: 768px) {
+
+	.bag {
+		background-image: url(images/background-01.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 750px;
+	}
+
+	[class*="col-"] {
+	  width: 100%;
+	}
+	
+	.qr 
+	{
+		margin-top: 160px;
+		margin-left: 5px;
+		border-radius: 50px;
+	}
+	.logo {
+		height: 150px;
+		margin-left: 100px;
+		margin-top: 150px;
+	
+	}
+	.scan {
+		font-family: agency fb;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 20px;
+		text-decoration: overline underline;
+		font-size: 2.5em;
+		color: black;
+	}
+	.access {
+		font-family: agency fb;
+		font-size: 1.5em;
+		text-align: center;
+		color: black;
+	}
+	.open {
+		font-family: agency fb;
+		font-size: 2em;
+		text-align: center;
+		color: black;
+	}
+ }
