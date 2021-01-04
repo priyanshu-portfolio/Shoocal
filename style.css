@@ -15,7 +15,7 @@ body{
  }
  
 .qr {
-	margin-top: 155px;
+	margin-top: 130px;
 	margin-left: 5px;
 	border-radius: 50px;
 }
@@ -60,14 +60,14 @@ body{
 	
 	.qr 
 	{
-		margin-top: 160px;
+		margin-top: 150px;
 		margin-left: 5px;
 		border-radius: 50px;
 	}
 	.logo {
 		height: 150px;
-		margin-left: 100px;
-		margin-top: 150px;
+		margin-left: 70px;
+		margin-top: 160px;
 	
 	}
 	.scan {
@@ -83,6 +83,7 @@ body{
 		font-family: agency fb;
 		font-size: 1.5em;
 		text-align: center;
+		margin-left: 60px;
 		color: black;
 	}
 	.open {
